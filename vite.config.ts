@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base:"/",
+    base:"/ Student-Skill-Gap-Analyzer/",
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
